@@ -1,17 +1,17 @@
 class Hot < Formula
   desc "Hot programming language and runtime"
   homepage "https://hot.dev"
-  version "0.17.0"
+  version "0.18.0"
   license :cannot_represent  # Hot Dev Software License Agreement - https://hot.dev/license
 
   on_macos do
     on_arm do
-      url "https://get.hot.dev/releases/0.17.0/hot_0.17.0_macos_arm64.tar.gz"
-      sha256 "08e70cbfd7ef308465f74250936724c27e3ed1ad1297e87f50284c8e6d0e5741"
+      url "https://get.hot.dev/releases/0.18.0/hot_0.18.0_macos_arm64.tar.gz"
+      sha256 "b3a7e3370c1ba146320a8d4ccaba7c7afbf04f2eeadd4faaa5959fa8c9b5ecde"
     end
     on_intel do
-      url "https://get.hot.dev/releases/0.17.0/hot_0.17.0_macos_x86_64.tar.gz"
-      sha256 "d4c04625c0d5e0fba82ec2274673443da4ecd6a4b6a12d3c820a4a53ee19f7f7"
+      url "https://get.hot.dev/releases/0.18.0/hot_0.18.0_macos_x86_64.tar.gz"
+      sha256 "c4b97244fd56ddd9cbcb027681556c3b5539c88ed970218d673171e7e6a449d5"
     end
   end
 
