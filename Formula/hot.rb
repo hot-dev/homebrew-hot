@@ -7,11 +7,11 @@ class Hot < Formula
   on_macos do
     on_arm do
       url "https://get.hot.dev/releases/0.18.0/hot_0.18.0_macos_arm64.tar.gz"
-      sha256 "b3a7e3370c1ba146320a8d4ccaba7c7afbf04f2eeadd4faaa5959fa8c9b5ecde"
+      sha256 "03d1cd9d03741906bfe7d359080efe530628f72425e77a497f2ad26922024bc8"
     end
     on_intel do
       url "https://get.hot.dev/releases/0.18.0/hot_0.18.0_macos_x86_64.tar.gz"
-      sha256 "c4b97244fd56ddd9cbcb027681556c3b5539c88ed970218d673171e7e6a449d5"
+      sha256 "8c1d7cc04711e961859ef97645f3ca167a79dfc8842947cee83dab00890ec0d9"
     end
   end
 
