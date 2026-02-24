@@ -1,28 +1,28 @@
 class Hot < Formula
   desc "Hot programming language and runtime"
   homepage "https://hot.dev"
-  version "1.1.4"
+  version "1.1.5"
   license :cannot_represent  # Hot Dev Software License Agreement - https://hot.dev/license
 
   on_macos do
     on_arm do
-      url "https://get.hot.dev/releases/1.1.4/hot_1.1.4_macos_arm64.tar.gz"
-      sha256 "f4e9d6e4fe802f823f4aaf9133c17beb3bcff12f7051bbe91712c31cabb36af4"
+      url "https://get.hot.dev/releases/1.1.5/hot_1.1.5_macos_arm64.tar.gz"
+      sha256 "db55591e8233eaa9db6327aca416c2648eee7dbb48a2381ca09191a2be672a6a"
     end
     on_intel do
-      url "https://get.hot.dev/releases/1.1.4/hot_1.1.4_macos_x86_64.tar.gz"
-      sha256 "ae59a8f4e18f2f7ea3ab7e6883869791b7f8448e9742ac9f16d96f189103b986"
+      url "https://get.hot.dev/releases/1.1.5/hot_1.1.5_macos_x86_64.tar.gz"
+      sha256 "8005e99e2274e1b25676da8f54c14c229b3cb980b33fb5861945c4a95a924542"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://get.hot.dev/releases/1.1.4/hot_1.1.4_linux_arm64.tar.gz"
-      sha256 "d8471f8aa7fe28fc0d01ff375de8a98ec69bbd5cc481bccd3372b68b07015605"
+      url "https://get.hot.dev/releases/1.1.5/hot_1.1.5_linux_arm64.tar.gz"
+      sha256 "274dcd09789d1752263bafd457e78243f8c2ef70f23e5e249bed963675272f14"
     end
     on_intel do
-      url "https://get.hot.dev/releases/1.1.4/hot_1.1.4_linux_x86_64.tar.gz"
-      sha256 "301842ed565f259ca107a56ed7a6ddad902bc01b1e3de14dd2be30cec3eba65a"
+      url "https://get.hot.dev/releases/1.1.5/hot_1.1.5_linux_x86_64.tar.gz"
+      sha256 "b3728383ee79198c2de0055b6c52c305182d1cb115b4713c0606e6bd98ec3bf9"
     end
   end
 
