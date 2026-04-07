@@ -1,33 +1,36 @@
 class Hot < Formula
   desc "Hot programming language and runtime"
   homepage "https://hot.dev"
-  version "1.1.8"
+  version "1.2.0"
   license :cannot_represent  # Hot Dev Software License Agreement - https://hot.dev/license
 
   on_macos do
     on_arm do
-      url "https://get.hot.dev/releases/1.1.8/hot_1.1.8_macos_arm64.tar.gz"
-      sha256 "40818482773f723ff593c8a0ad56e400258a3240c5cdf0d7699fdca37bc1da43"
+      url "https://get.hot.dev/releases/1.2.0/hot_1.2.0_macos_arm64.tar.gz"
+      sha256 "bef123132f5c94e8b6305f92b03be92bf1601e0db727aadc25e326e0947706aa"
     end
     on_intel do
-      url "https://get.hot.dev/releases/1.1.8/hot_1.1.8_macos_x86_64.tar.gz"
-      sha256 "ab9936e0ff58654804189df135c3a4daaa8aed97e92f7eeb6f5f4ceb1e4c65c9"
+      url "https://get.hot.dev/releases/1.2.0/hot_1.2.0_macos_x86_64.tar.gz"
+      sha256 "0c3543298da94362c70e14f4bf45b96e5c078acd0e6b5e5306427fa55f69852f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://get.hot.dev/releases/1.1.8/hot_1.1.8_linux_arm64.tar.gz"
-      sha256 "483991e1359cd7c8251dcbdd2e60b071892fd0a97852573bb6a265b5a7302c12"
+      url "https://get.hot.dev/releases/1.2.0/hot_1.2.0_linux_arm64.tar.gz"
+      sha256 "b6a206f0df3c40d0cec9c7919ab6a77af05005d69734133a1f36ed7c05e18492"
     end
     on_intel do
-      url "https://get.hot.dev/releases/1.1.8/hot_1.1.8_linux_x86_64.tar.gz"
-      sha256 "40c3c351c95647827d72a5ea18cde56f1ac01807992cc4ee6b00616a51229fa5"
+      url "https://get.hot.dev/releases/1.2.0/hot_1.2.0_linux_x86_64.tar.gz"
+      sha256 "4a22f3ad22a342ee87754c9e882189b098d4342f4bbbaf47971bbefb95a2c6a3"
     end
   end
 
   def install
     bin.install "hot"
+
+    # Install hotbox Linux binaries (for container tasks via hot dev)
+    (share/"hot/bin").install Dir["bin/hotbox-*"]
 
     # Install standard library
     (share/"hot/pkg").install "pkg/hot-std"
