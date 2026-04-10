@@ -7,22 +7,22 @@ class Hot < Formula
   on_macos do
     on_arm do
       url "https://get.hot.dev/releases/1.2.3/hot_1.2.3_macos_arm64.tar.gz"
-      sha256 "bebd90bfba18dd576a33914b84992209c3af5e5522d2801e3e5db5029a086edf"
+      sha256 "becceb33df24d133ea1de61d6d90e63e17b69082be8d9793ccc3b6fda63c4dfb"
     end
     on_intel do
       url "https://get.hot.dev/releases/1.2.3/hot_1.2.3_macos_x86_64.tar.gz"
-      sha256 "24a7e94237e77122aaafbd1fcb9333361cc7e21fdcde0679a436a5e9927838f5"
+      sha256 "5f2e3291bfd3bb66751be8cac68d6bc73f07234ec10f7997c3eeef64cb9c787b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://get.hot.dev/releases/1.2.3/hot_1.2.3_linux_arm64.tar.gz"
-      sha256 "a0fe3cc0318f0fd4b0016275c42c7894eb90c02785c0e48a7a21617347750fd3"
+      sha256 "2e53255da6a8a937cdb66390c3c097281b190b1b51e6760c94196a2bc1c39dda"
     end
     on_intel do
       url "https://get.hot.dev/releases/1.2.3/hot_1.2.3_linux_x86_64.tar.gz"
-      sha256 "b82625fe06ada1d3b7597b5b0754dda96915922d63719669721208c0e04038ef"
+      sha256 "346162b0e1bb1f9b6401e11a04729f79d3e516d5cca5c647c0949bc0fbf7056a"
     end
   end
 
