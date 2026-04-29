@@ -39,4 +39,4 @@ brew untap hot-dev/hot  # Optional: remove the tap
 
 ## License
 
-Hot is licensed under the [Hot Dev Software License Agreement](https://hot.dev/license).
+Hot is licensed under the Apache License, Version 2.0.
