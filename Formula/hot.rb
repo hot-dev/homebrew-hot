@@ -1,28 +1,28 @@
 class Hot < Formula
   desc "Hot programming language and runtime"
   homepage "https://hot.dev"
-  version "2.6.10"
+  version "2.6.11"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://get.hot.dev/releases/2.6.10/hot_2.6.10_macos_arm64.tar.gz"
-      sha256 "433da5b274ebf7d61e10f5728250ace9bf03830f9a08a59075cea5c0e0e244d7"
+      url "https://get.hot.dev/releases/2.6.11/hot_2.6.11_macos_arm64.tar.gz"
+      sha256 "cb8100125be9e77f0636542254640cae842254405dee3ab9b58e36873261a24d"
     end
     on_intel do
-      url "https://get.hot.dev/releases/2.6.10/hot_2.6.10_macos_x86_64.tar.gz"
-      sha256 "27e3864a264272b6176ba832472515a283c0e6eaaa705fdaca6b6865879ad694"
+      url "https://get.hot.dev/releases/2.6.11/hot_2.6.11_macos_x86_64.tar.gz"
+      sha256 "ff958709563efadcead49b964042f93349c65d8e7887fde765bb6740ef3ae111"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://get.hot.dev/releases/2.6.10/hot_2.6.10_linux_arm64.tar.gz"
-      sha256 "22d81939b135719f18fcb98acbd784f5abed591fb5423e95339bd792b3d0c392"
+      url "https://get.hot.dev/releases/2.6.11/hot_2.6.11_linux_arm64.tar.gz"
+      sha256 "f8682ef19aab18dd7fa93fa6f7fe5b88cc929828ea8c790ed695ed694485ac43"
     end
     on_intel do
-      url "https://get.hot.dev/releases/2.6.10/hot_2.6.10_linux_x86_64.tar.gz"
-      sha256 "34ddcbb14aaab072ff3c0b69ccaad68ce3eaa13f2d56a18fbda23e340840c099"
+      url "https://get.hot.dev/releases/2.6.11/hot_2.6.11_linux_x86_64.tar.gz"
+      sha256 "10a9e34790c2450ea2c7ee2d9a93464016dff9110c8ec22d1e2ca02d70a9202b"
     end
   end
 
