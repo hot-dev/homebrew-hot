@@ -1,28 +1,28 @@
 class Hot < Formula
   desc "Hot programming language and runtime"
   homepage "https://hot.dev"
-  version "3.0.14"
+  version "3.0.15"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://get.hot.dev/releases/3.0.14/hot_3.0.14_macos_arm64.tar.gz"
-      sha256 "b5b379602cc51fda2b539414b644e80664f85a8fade17581aa5696f4e57e1b28"
+      url "https://get.hot.dev/releases/3.0.15/hot_3.0.15_macos_arm64.tar.gz"
+      sha256 "2b607076ff9bb78fb62b7d557f0efea43485896d9ad7691fa1fa72c46f16ca25"
     end
     on_intel do
-      url "https://get.hot.dev/releases/3.0.14/hot_3.0.14_macos_x86_64.tar.gz"
-      sha256 "cb4c84341a2bf48fa72b7a2b71b5c4ccc0df8f0ecd7a78af49a20f7a18103640"
+      url "https://get.hot.dev/releases/3.0.15/hot_3.0.15_macos_x86_64.tar.gz"
+      sha256 "a97b758b77703b97cadbd12d11f6a878588b730e6f1472d89282e87f02166c76"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://get.hot.dev/releases/3.0.14/hot_3.0.14_linux_arm64.tar.gz"
-      sha256 "b22f0eda48a219bc8654dcc0a4b788945fb9be0ee72e7fd5a0297a73a185a02e"
+      url "https://get.hot.dev/releases/3.0.15/hot_3.0.15_linux_arm64.tar.gz"
+      sha256 "6b81958152c520514788e65c470c61f86a9e323639e16504f30f3dbec222dacf"
     end
     on_intel do
-      url "https://get.hot.dev/releases/3.0.14/hot_3.0.14_linux_x86_64.tar.gz"
-      sha256 "a61451bbf790eea431810f9448a581eaa30e46e6b13be20238d280174b2e7fe3"
+      url "https://get.hot.dev/releases/3.0.15/hot_3.0.15_linux_x86_64.tar.gz"
+      sha256 "278f42681e24b6db49747fd9c03ba5574eb8348c36d430c7df42a80efe95bc66"
     end
   end
 
